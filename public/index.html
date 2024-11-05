@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>HODLINFO</h1>
+            <div class="settings">
+                <button>INR &#x25BC;</button>
+                <button>BTC &#x25BC;</button>
+                <button>BUY BTC</button>
+                <button class="connect">Connect Telegram</button>
+            </div>
+        </header>
+        
+        <section class="main">
+            <div class="price-info">
+                <div class="change"><strong>0.1%</strong> <span>5 Mins</span></div>
+                <div class="change"><strong>0.96%</strong> <span>1 Hour</span></div>
+                <div class="best-price">
+                    <p>Best Price to Trade</p>
+                    <h2>₹ 26,56,110</h2>
+                    <p>Average BTC/INR net price including commission</p>
+                </div>
+                <div class="change"><strong>2.73%</strong> <span>1 Day</span></div>
+                <div class="change"><strong>7.51%</strong> <span>7 Days</span></div>
+            </div>
+
+            <div class="crypto-table">
+                <div class="table-header">
+                    <div>#</div>
+                    <div>Platform</div>
+                    <div>Last Traded Price</div>
+                    <div>Buy / Sell Price</div>
+                    <div>Difference</div>
+                    <div>Savings</div>
+                </div>
+                <div id="crypto-rows">
+                    <!-- Data rows will be inserted here by JavaScript -->
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <button>Add hodlinfo to home screen</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
